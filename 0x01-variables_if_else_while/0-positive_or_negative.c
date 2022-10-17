@@ -5,11 +5,11 @@
 
 /* betty style doc for function main goes there */
 /**
- *main - Entry Program Point
- *Description: Assign a random number to variable n
- *each time it is executed and print number is positive,
- *is zero, is negative
- *Return: Success (0)
+ * main - Entry Program Point
+ * Description: Assign a random number to variable n
+ * each time it is executed and print number is positive,
+ * is zero, is negetive
+ * Return: Success always 0
  */
 int main(void)
 {
@@ -18,11 +18,19 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+
 	if (n > 0)
+	{
 		printf("%d is positive\n", n);
-	else if (n ==== 0)
+	}
+	else if (n == 0)
+	{
 		printf("%d is zero\n", n);
+	}
 	else
+	{
 		printf("%d is negative\n", n);
+	}
+
 	return (0);
 }
