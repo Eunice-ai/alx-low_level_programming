@@ -10,12 +10,13 @@
  */
 int main(void)
 {
-	int number;
+	int number = 0;
 
-	for (number = 0; number < 10; number++)
-		printf("%d", number);
-
-	printf('\n');
+	while (number < 10)
+	{
+		putchar(number++);
+	}
+	putchar('\n');
 
 	return (0);
 }
