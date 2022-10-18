@@ -6,17 +6,17 @@
  * main - Entry
  * Description: Print all single digit number
  * of base 10, starting from zero
- * Return: Success 0
+ * Return: Success (0)
  */
+
 int main(void)
 {
-	int number = 0;
+	int number;
 
-	while (number < 10)
+	for (number = 0; number < 10; number++)
 	{
-		putchar(number++);
+		putchar("%d", number);
 	}
 	putchar('\n');
-
 	return (0);
 }
