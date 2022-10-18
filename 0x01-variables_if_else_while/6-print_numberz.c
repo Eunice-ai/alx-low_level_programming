@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 
 /**
  * main - Entry
@@ -11,11 +10,11 @@
 
 int main(void)
 {
-	int number;
+	int number = 0;
 
-	for (number = 0; number < 10; number++)
+	while (number < 10)
 	{
-		putchar("%d", number);
+		putchar(number++);
 	}
 	putchar('\n');
 	return (0);
