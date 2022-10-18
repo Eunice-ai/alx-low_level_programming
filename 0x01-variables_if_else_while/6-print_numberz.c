@@ -5,7 +5,7 @@
 /**
  * main - Entry
  * Description: Print all single digit number
- * of base 10, starting from 0,
+ * of base 10, starting from zero
  * Return: Success 0
  */
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	for (number = 0; number < 10; number++)
 		printf("%d", number);
 
-	printf("\n");
+	printf('\n');
 
 	return (0);
 }
