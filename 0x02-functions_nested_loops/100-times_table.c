@@ -4,7 +4,7 @@
  * print_times_table - function
  * Description: prints the n times table,
  * starting with 0
- * @n: max number
+ * @n: maximum number
  * Return: true (0)
  */
 void print_times_table(int n)
@@ -23,7 +23,6 @@ void print_times_table(int n)
 			op = w * x;
 			_putchar(44);
 			_putchar(32);
-			_putchar(op + 48);
 			if (op <= 9)
 			{
 				_putchar(32);
