@@ -45,6 +45,6 @@ int main(void)
 		if (((num1 + num2) < 0) && b == 1)
 		b = 0;
 	}
-			printf("\n");
-			return (0);
+	printf("\n");
+	return (0);
 }
