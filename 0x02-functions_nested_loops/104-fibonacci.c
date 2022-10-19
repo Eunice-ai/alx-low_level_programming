@@ -29,8 +29,8 @@ int main(void)
 			{
 				num3 = num1 % 1000000000;
 				num4 = num2 % 1000000000;
-				num1 = num1 / 100000000;
-				num2 = num2 / 100000000;
+				num1 = num1 / 1000000000;
+				num2 = num2 / 1000000000;
 				b2 = 0;
 			}
 			fib2 = (num3 + num4);
