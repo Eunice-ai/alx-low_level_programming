@@ -2,12 +2,18 @@
 
 /**
  * print_alphabet - print alphabet in lower case
+ *
+ * Return: Void
  */
 void print_alphabet(void)
 {
-	char lc;
+	char l = 'a';
 
-	for (lc = 'a'; lc <= 'z'; lc++)
-		_putchar(lc);
+	while (l <= 'z')
+	{
+		_putchar(l);
+		l++;
+	}
 
 	_putchar('\n');
+}
