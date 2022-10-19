@@ -4,10 +4,10 @@
  * main - Add integers and return result
  * @a: first number
  * @b: second number
- * Return: Always 0
+ * Return: Add two numbers
  */
 
-int add(int a, int b);
+int add(int a, int b)
 {
 	return (a + b);
 }
