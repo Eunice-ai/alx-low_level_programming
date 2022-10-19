@@ -19,7 +19,7 @@ int main(void)
 	{
 		b = a;
 		a += sum;
-		if (a == 49)
+		if (z == 49)
 		{
 			printf("%ld\n", a);
 		}
